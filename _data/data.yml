@@ -3,263 +3,117 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Matteo Semeraro
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: matteosemeraro93@gmail.com
+    phone: 0639414616
+    timezone: Amsterdam
+    citizenship: Italian
+    linkedin: matteo-semeraro-86171150
+    github: sgarro
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Italian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Bachelor Degree in Computer Science
+        university: Alma Mater Studiorum Bologna
+        time: Dec 2013 - Dec 2018
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Fullstack Engineer
+        time: December 2021 - Present
+        company: HackerOne, San Francisco
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          HackerOne is a leading company in cybersecurity. During my time at HackerOne i perfected my skills as a senior engineer by leading several projects.
+          I've worked on an application built upon ReactJs, Graphql and Backbone legacy code as frontend, Ruby on Rails as backend. Part of my day to day work would involve:
+          - I would spec out requirements with the team leader 
+          - organize sprint tickets, explaining and discussing them with other team members
+          - collect feedback from customer success managers while providing support 
+          - prioritize feedbacks and organize refinement cycles with product managers and designers
+          As a proficient technical engineer, i've also provided support and mentoring juniors engineers, aswell as discussing technical improvements for the platform with other engineers and principals, to adopt better technologies and improve code quality.
+            
+      - role: Fullstack Engineer
+        time: Sep 2020 - December 2021
+        company: Cv Maker, Amsterdam
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          CvMaker is an online platform to build professional CV As the whole platform went through a reshape:
+          - I built a whole component libraries for the ui, comprehensive of jest tests, based on a professional layed out design by BBagency ,
+          - Shaped a platform for the company landing site, based on gatsby and netlify, creating custom mdx components to help programming agnostic employes from the custom service create content for landing pages.
+          - Created serverless lambda functions based on nodejs to create PDFs based on users input
+          - Helped the team dev-op with deploying lambda function on AWS
+      - role: Fullstack Engineer
+        time: Jun 2020 - Aug 2020
+        company: Doveconviene, Bologna (Italy)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+          As covid and the pandemic strike worldwide, i had to work briefly for an
+          italian company that offer a platform in different countries for displaying
+          flyers from various shops. During two months i worked on a php backoffice, deployed with CI through jenkins on different countries. I also worked on the frontend React app
+      - role: Fullstack Engineer
+        time: Mar 2019 - Mar 2020
+        company: Airsquire, Amsterdam
+        details: |
+          Airsquire platform uses Vision Artificial Intelligence to quickly and easily
+          checking point cloud reality against entire 3D models, showing you
+          exactly where and how much your project varies from design developed the front-end product and managed custom support,
+          using React
+          - developed custom tools for our in-app 3D viewer, based on Three.js
+          and potree.js
+          - quickly built several API and microservices, using node.js, docker,
+          and google cloud
+          - was sent to Mexico City to closely work with the team of Autodesk,
+          building custom tools to align their viewer to our app needs
+      - role: Fullstack Engineer
+        time: Apr 2017 - Dec 2018
+        company: Luna Partner, Bologna (Italy)
+        details: |
+          Luna Parter is a company that build several application for customers. As such, i've worked on several projects 
+          LOOKHAVE
+          Lookhave is the social network that connects your wardrobe to your
+          smartphone, thanks to a unique database of its kind. Create new mix and match, share your looks, let yourself be inspired and buy everything you see, wherever you are.
+          - refactoring and re-architecting of an existing social network built around clothes.
+          - developed a scraping system with php and python that uses RabbitMQ to queue jobs and save results in OrientDB and ElasticSearch. This entirely replaces the old system which relied on manual input.
+          - developed the backend using LaravelPHP to mange jobs and users profiles
+          - developed the client app UI in Angular
+          - developed the native Android app to mirror the functionalities of the existing iOS app
+          BABOUL.IT
+          A responsive search engine for local shops in Bologna
+          - architected and developed the frontend app using Angular 4 
+          BLUCAR4U
+          Low cost travel search engine
+          - developed the hybrid mobile app in Ionic3/Cordova
+          - developed the server app with Java Spring using PostgresSQL
+      - role: Freelance Developer
+        time: Feb 2017 - Apr 2017
+        company: Chebuoni.it, Bologna (Italy)
+        details: |
+          Mammachebuoni is the go to website to find discounts and coupons for day to day products. 
+          With 15million monthly page views and more than 2 million users it heavily relies on SEO, responsiveness and speed. 
+          With these requirements, I developed the frontend app using Angular and I managed the Apache configuration for further SEO optimizations.
+      - role: Fullstack Engineer
+        time: Oct 2016 - Jan 2017
+        company: Awhy srl, Bologna (Italy)
+        details: |
+          Awhy is a chatbot that uses AI and machine learning to automatically answer clients questions.
+          - developed the backend UI using AngularJs
+          - developed the frontend API on Java Spring Boot
+          - creation and maintenance of our DB models on MongoDB and Mysql
+          - internal tool using DjangoREST and python to instrument queries
